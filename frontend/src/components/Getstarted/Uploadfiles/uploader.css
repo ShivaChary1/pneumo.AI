@@ -1,0 +1,41 @@
+.form_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 375px;
+    flex-direction: column;
+    cursor: pointer;
+    width: 700px;
+    border-radius: .5rem;
+    border: 2px dashed #4f46e5;
+    background-color:  #ffffff !important;
+}
+.h1_h1{
+    width: 700px;
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+
+.main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+
+}
+
+.uploaded_row{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 700px;
+    height: auto;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #4e46e5c3;
+}

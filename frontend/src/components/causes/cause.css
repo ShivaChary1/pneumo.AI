@@ -1,0 +1,51 @@
+.content_div{
+    min-height: 100vh;
+}
+.cardContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  row-gap: 1.5rem;
+  min-width: 100vw;
+  min-height: 90vh;
+}
+.cardHorizontal{
+    display: flex;
+    width: 100vw;
+    column-gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    position: relative;
+    right: 22% ;
+}
+.addu{
+  z-index: -10;
+}
+.second{
+    position: relative;
+    right: 25%
+}
+.bact_lot{
+  height: 20vw;
+}
+.button:hover{
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  transition: .3s;
+}
+.more{
+  height: 10vw;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgMove{
+  height: 20vw;
+  width: 30vw;
+  border-radius: 1rem;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5), 0 2px 6px rgba(0, 0, 0, 0.08); 
+}
