@@ -20,14 +20,14 @@
 }
 .first{
     position: relative;
-    right: 22% ;
+    right: 25% ;
 }
 .addu{
   z-index: -10;
 }
 .second{
     position: relative;
-    right: 25%
+    right: 18%
 }
 .bact_lot{
   height: 20vw;

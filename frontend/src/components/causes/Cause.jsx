@@ -46,8 +46,8 @@ export default function Cause() {
     offset: ["start end", "end start"]
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [0, windowHeight]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [windowHeight ,0 ]);
+  const y = useTransform(scrollYProgress, [0,1], [0, windowHeight]);
+  const y2 = useTransform(scrollYProgress, [0,1], [windowHeight ,0 ]);
   return (
     <div className="bg-white">
       <div className="relative isolate ">
